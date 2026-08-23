@@ -3,7 +3,7 @@ name: cv-writing
 description: "Use when writing ANY CV, resume, or cover letter for User Marković. THE single authoritative skill — guides even lesser LLMs to produce tailored, ATS-compliant, machine-readable CVs and cover letters for UN and commercial roles."
 category: productivity
 version: 3.1.0
-tags: [career, cv, resume, cover-letter, job-application, User-markovic, ats, humanizer, un, commercial]
+tags: [career, cv, resume, cover-letter, job-application, XXXXXX, ats, humanizer, un, commercial]
 ---
 
 # CV Writing — User Marković Complete Guide (v3.0.0)
@@ -396,7 +396,7 @@ Follow the section order for the chosen track (PART 3). For each section:
 ```
 User MARKOVIĆ
 [TAILORED FUNCTIONAL HEADLINE — 4–9 words, derived from JD]
-Phone +381 64 110 8335 | email : your-email@example.com  | linkedin.com/in/User-markovic3229
+Phone +381 64 110 8335 | email : XXXXXX  | linkedin.com/in/XXXXXX
 Belgrade, Serbia | EU citizen (Czech Republic)
 ```
 

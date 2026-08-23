@@ -91,8 +91,8 @@ def generate_cover_letter(json_path, output_path):
     contact_para = doc.add_paragraph()
     contact_para.paragraph_format.space_after = Pt(6)
     contact_run = contact_para.add_run(
-        'Belgrade, Serbia  |  +381 64 110 8335  |  your-handle@gmail.com  |  '
-        'linkedin.com/in/User-markovic3229  |  Dual National — Czech Republic (EU) & Serbia'
+        'Belgrade, Serbia  |  +381 64 110 8335  |  XXXXXX  |  '
+        'linkedin.com/in/XXXXXX  |  Dual National — Czech Republic (EU) & Serbia'
     )
     contact_run.font.name = 'Arial'
     contact_run.font.size = Pt(9)
