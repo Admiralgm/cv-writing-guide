@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CV Generator v2 for User Marković — Reference-CV Format Match
+CV Generator v2 for User Surname — Reference-CV Format Match
 Matches User_Tailored_Delivery_Lead_CV.docx format exactly:
 - US Letter (8.5" x 11")
 - 0.45" T/B, 0.6201" L/R margins
@@ -13,7 +13,7 @@ Matches User_Tailored_Delivery_Lead_CV.docx format exactly:
 - "SELECTED DELIVERY IMPACT" section between competencies and experience
 - ALL 12 experience roles included (3+ pages)
 - Languages in contact block, not separate section
-- Footer: "User Marković" 9pt centered
+- Footer: "User Surname" 9pt centered
 
 Usage:
     python3 cv_generator_v2.py <json_file>
@@ -199,7 +199,7 @@ def build_cv(content, output_path):
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.space_after = Pt(2)
     p.paragraph_format.line_spacing = 1.0
-    r1 = p.add_run("Phone +381 64 110 8335 | email : XXXXXX  | linkedin.com/in/XXXXXX")
+    r1 = p.add_run("Phone +381 XX XXX XXXX | email : your-email@example.com  | linkedin.com/in/user-handle)
     r1.font.name = FONT_FAMILY; r1.font.size = Pt(9); r1.font.color.rgb = COLOR_BODY
     add_manual_line_break(p)
     r2 = p.add_run("Belgrade, Serbia | EU citizen (Czech Republic)")

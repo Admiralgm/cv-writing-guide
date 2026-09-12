@@ -57,7 +57,7 @@ User requested tailored machine-readable .docx CVs for 13 qualified job vacancie
 
 All 13 .docx files generated and verified:
 - Every file opens with python-docx
-- All have User MARKOVIĆ (with diacritic) as first paragraph
+- All have User Surname (with diacritic) as first paragraph
 - All have A4 page dimensions (7559675 x 10692130 EMU)
 - File sizes: 40-41 KB each
 - Paragraph counts: 35-41 per CV

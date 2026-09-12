@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CV Generator for User Marković — Machine-Readable DOCX
+CV Generator for User Surname — Machine-Readable DOCX
 Implements §0.4 Reference-CV Formatting Lock from CV_REPOSITORY_DATABASE.md v26.
 
 Usage:
@@ -151,7 +151,7 @@ def build_cv(content, output_path):
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.space_after = Pt(2)
     p.paragraph_format.line_spacing = 1.0
-    r1 = p.add_run("Phone +381 64 110 8335 | email : XXXXXX  | linkedin.com/in/XXXXXX")
+    r1 = p.add_run("Phone +381 XX XXX XXXX | email : your-email@example.com  | linkedin.com/in/user-handle)
     r1.font.name = FONT_FAMILY; r1.font.size = Pt(9); r1.font.color.rgb = COLOR_BODY
     add_manual_line_break(p)
     r2 = p.add_run("Belgrade, Serbia | EU citizen (Czech Republic)")

@@ -50,9 +50,9 @@ Produces `User_CV_Company_Role.docx` in the same directory.
 - `experience`: 3-5 roles, reverse chronological, max 3 bullets each (last = Key Achievement)
 - `additional_experience`: optional, max 3 one-liners
 - `company` and `role`: used for filename generation (underscores, no spaces)
-- Name is always User MARKOVIĆ (with diacritic) — hardcoded in the script
+- Name is always User Surname (with diacritic) — hardcoded in the script
 - Contact block is hardcoded: phone, email, LinkedIn, city, citizenship
-- Footer is hardcoded: "User Marković" 9pt centered
+- Footer is hardcoded: "User Surname" 9pt centered
 
 ## §0.4 Formatting Implemented
 
@@ -66,4 +66,4 @@ Produces `User_CV_Company_Role.docx` in the same directory.
 - Role title: 10pt bold black
 - Date: 10pt regular black
 - Bullets: • U+2022, 10pt, 0.18" left indent, 0.12" hanging
-- Footer: "User Marković" 9pt centered, every page
+- Footer: "User Surname" 9pt centered, every page

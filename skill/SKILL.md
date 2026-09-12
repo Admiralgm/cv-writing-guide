@@ -1,12 +1,12 @@
 ---
 name: cv-writing
-description: "Use when writing ANY CV, resume, or cover letter for User Marković. THE single authoritative skill — guides even lesser LLMs to produce tailored, ATS-compliant, machine-readable CVs and cover letters for UN and commercial roles."
+description: "Use when writing ANY CV, resume, or cover letter for User Surname. THE single authoritative skill — guides even lesser LLMs to produce tailored, ATS-compliant, machine-readable CVs and cover letters for UN and commercial roles."
 category: productivity
 version: 3.1.0
-tags: [career, cv, resume, cover-letter, job-application, XXXXXX, ats, humanizer, un, commercial]
+tags: [career, cv, resume, cover-letter, job-application, User-User, ats, humanizer, un, commercial]
 ---
 
-# CV Writing — User Marković Complete Guide (v3.0.0)
+# CV Writing — User Surname Complete Guide (v3.0.0)
 
 > **This is the single authoritative CV skill.** It was rebuilt from the ground up by studying 7 actual CVs and 7 actual cover letters from User's application history, cross-referenced against the CV_REPOSITORY_DATABASE.md (v31, 1170 lines), and validated against 2026 ATS best-practices research. It is designed to guide even lesser LLMs to produce tailored, recruiter-ready output.
 
@@ -16,8 +16,8 @@ tags: [career, cv, resume, cover-letter, job-application, XXXXXX, ats, humanizer
 
 - [QUICK-START FOR LESSER MODELS](#quick-start-for-lesser-models)
 - [PART 0: Route the Request](#part-0-route-the-request)
-- [PART 1: What We Learned From User's Actual CVs](#part-1-what-we-learned-from-gorans-actual-cvs)
-- [PART 2: What We Learned From User's Actual Cover Letters](#part-2-what-we-learned-from-gorans-actual-cover-letters)
+- [PART 1: What We Learned From User's Actual CVs](#part-1-what-we-learned-from-users-actual-cvs)
+- [PART 2: What We Learned From User's Actual Cover Letters](#part-2-what-we-learned-from-users-actual-cover-letters)
 - [PART 3: UN vs Commercial — The Two Tracks](#part-3-un-vs-commercial--the-two-tracks)
 - [PART 4: ATS & Machine-Readability (2026 Research)](#part-4-ats--machine-readability-2026-research)
 - [PART 5: Step-by-Step Generation Workflow](#part-5-step-by-step-generation-workflow)
@@ -35,7 +35,7 @@ tags: [career, cv, resume, cover-letter, job-application, XXXXXX, ats, humanizer
 
 ## QUICK-START FOR LESSER MODELS
 
-If you are a smaller/less-capable LLM generating a CV or cover letter for User Marković, follow this minimal checklist:
+If you are a smaller/less-capable LLM generating a CV or cover letter for User Surname, follow this minimal checklist:
 
 ### CV — Minimum Viable Process
 
@@ -149,7 +149,7 @@ Commercial CVs from User's history share these traits:
 
 Across both tracks, the strongest CVs:
 
-1. **Lead with a tailored headline.** Not just "User MARKOVIĆ" — the second line is a role-specific functional title (e.g., "AI Centre of Excellence Lead" or "Senior B2B Sales and Carrier Partnership Leader").
+1. **Lead with a tailored headline.** Not just "User Surname" — the second line is a role-specific functional title (e.g., "AI Centre of Excellence Lead" or "Senior B2B Sales and Carrier Partnership Leader").
 2. **Open the profile with the target function.** The first 5 words tell the recruiter what the candidate IS for THIS role.
 3. **Front-load mandatory criteria.** The top third of page 1 contains evidence for the JD's most important requirements.
 4. **Use the candidate's strongest differentiator.** "The Bridge" — connecting business strategy, technical architecture, operational delivery, adoption, and governance — appears in some form in every strong CV.
@@ -394,9 +394,9 @@ Follow the section order for the chosen track (PART 3). For each section:
 
 **Identity Block (both tracks):**
 ```
-User MARKOVIĆ
+User Surname
 [TAILORED FUNCTIONAL HEADLINE — 4–9 words, derived from JD]
-Phone +381 64 110 8335 | email : XXXXXX  | linkedin.com/in/XXXXXX
+Phone +381 XX XXX XXXX | email : your-email@example.com  | linkedin.com/in/user-handle
 Belgrade, Serbia | EU citizen (Czech Republic)
 ```
 
@@ -502,7 +502,7 @@ page:
 | Body/bullets | Arial | 10 pt | Regular | Plain | #000000 | Left | Single line spacing, 2 pt after |
 | Bullet symbol | — | — | — | Round (•, U+2022) | — | — | Left indent 0.18 in, hanging indent 0.12 in |
 | Hyperlinks | Arial | 10 pt | Regular | Underline | #0563C1 | — | — |
-| Footer | Arial | 9 pt | Regular | Plain | #000000 | Centred | "User Marković" on every page |
+| Footer | Arial | 9 pt | Regular | Plain | #000000 | Centred | "User Surname" on every page |
 
 ### Prohibited Elements
 
@@ -552,7 +552,7 @@ BLACK = RGBColor(0x00, 0x00, 0x00)
 # Name paragraph
 name_para = document.add_paragraph()
 name_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-name_run = name_para.add_run("User MARKOVIĆ")
+name_run = name_para.add_run("User Surname")
 name_run.font.size = Pt(20)
 name_run.font.bold = True
 name_run.font.color.rgb = NAME_BLUE
@@ -847,7 +847,7 @@ Delivered, Executed, Completed, Finalized, Resolved, Closed, Achieved, Attained,
 
 1. **Verbosity creep** — The AI default is to write more. Resist.
 2. **Single-fact bullets** — Compound bullets only (2–3 facts per bullet).
-3. **Missing diacritic** — Always MARKOVIĆ not MARKOVIC.
+3. **Missing diacritic** — Always Surname not User.
 4. **Generic profile** — "Experienced professional with a proven track record" could be anyone.
 5. **Duty-list bullets** — "Responsible for" is a job description, not an achievement.
 6. **Missing contract-type on recent roles** — Roles started < 6 months ago need "(Project-Based / Advisory)" or "(Contract)."
@@ -856,7 +856,7 @@ Delivered, Executed, Completed, Finalized, Resolved, Closed, Achieved, Attained,
 9. **Not humanizing output** — ALL prose must pass the humanization check.
 10. **Dropping roles** — All 12 roles stay. Compress older ones, don't delete.
 11. **Tables for competencies** — ATS parsers scramble table content.
-12. **Footer text redundancy** — Only "User Marković" in footer, nothing else.
+12. **Footer text redundancy** — Only "User Surname" in footer, nothing else.
 13. **Using outdated formatting** — PART 6 (§0.4) is authoritative.
 14. **Forcing 2-page commercial CV** — 2 pages is optimum, not a hard limit.
 15. **Short cover letter** — Target 250–350 (commercial) or 350–450 (UN) words.
@@ -918,4 +918,4 @@ This skill synthesizes:
 
 ---
 
-*End of CV Writing Skill v3.0.0 — User Marković | Rebuilt August 2026 from actual CV/cover letter analysis + 2026 ATS research | Designed to guide even lesser LLMs to produce tailored, recruiter-ready output.*
+*End of CV Writing Skill v3.0.0 — User Surname | Rebuilt August 2026 from actual CV/cover letter analysis + 2026 ATS research | Designed to guide even lesser LLMs to produce tailored, recruiter-ready output.*
